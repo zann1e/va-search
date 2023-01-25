@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+/packages/instantsearch.js/dist
+/packages/instantsearch.js/cjs
+/packages/instantsearch.js/es
+/packages/vue-instantsearch/vue2
+/packages/vue-instantsearch/vue3
+dist/
+build/
+.parcel-cache
+
+# Generated files
+/docs
+/website/examples/*
+/website/stories/*
+/website/specs/*
+/storybook/dist/*
+!.gitkeep
+
+# Unneeded changelogs
+examples/*/*/CHANGELOG.md
+tests/*/CHANGELOG.md
+scripts/*/CHANGELOG.md
+
+# Logs
+*.log
+
+# private files
+.env
+.idea/
